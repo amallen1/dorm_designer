@@ -116,7 +116,7 @@ public class Main {
 		processing.background(100, 150, 250);
 		// Update background
 		processing.image(backgroundImage, processing.width / 2, processing.height / 2);
-		// WHAT IS DIS DOING AGAIN
+		
 		for (int i = 0; i < extractFurnitureFromGUIObjects().length; i++) {
 			// The user should be able to click anywhere on the bed.
 			if (extractFurnitureFromGUIObjects()[i] != null) {
